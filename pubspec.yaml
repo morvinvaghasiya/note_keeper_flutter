@@ -1,0 +1,36 @@
+name: note_keeper
+description: Notes Application created in Flutter with AppWrite.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  appwrite: ^5.0.0
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  device_preview: ^1.1.0
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.0.2
+  flutter_quill: ^5.0.3
+  flutter_riverpod: ^1.0.4
+  flutter_staggered_grid_view: ^0.6.1
+  font_awesome_flutter: ^10.1.0
+  logging: ^1.0.2
+  routemaster: ^1.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
